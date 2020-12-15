@@ -56,9 +56,186 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TaxonomyTest.cs" />
+    <Compile Include="DrawingBaseArc_OBSOLETE.cs" />
+    <Compile Include="DrawTree_OBSOLETE.cs" />
+    <Compile Include="ForceOutlineToTaxonomy.cs" />
+    <Compile Include="FromChildset.cs" />
+    <Compile Include="FromPointer.cs" />
+    <Compile Include="FromText.cs" />
+    <Compile Include="DendoGrapher.cs" />
+    <Compile Include="LevelDecompose.cs" />
+    <Compile Include="Param_TaxoNode.cs" />
+    <Compile Include="ParamInterNode.cs" />
+    <Compile Include="Pedigree.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringCombine.cs" />
     <Compile Include="TaxonomyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToText.cs" />
+    <Compile Include="Type_TaxoNode.cs" />
+    <Compile Include="Param_Taxonomy.cs" />
+    <Compile Include="TreeTopology.cs" />
+    <Compile Include="TrimExcess.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hgX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrawTree2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_beatle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Boikon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_branch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Bug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_DrawTree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Frute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_hier2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_hierarchy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Insect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_textbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_TextToTree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_TextToTree2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Tree2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_treecircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Treemap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_TreemapBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Treemapwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_TreeToText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Twig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Twig3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_TwigSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_TwigWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taxonode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NodeText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_MetaVector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_Taxonomy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_paramTnode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_paramNameNode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dendogram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_lay2t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_s2t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_t2s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_trim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_trim2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
